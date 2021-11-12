@@ -1,0 +1,13 @@
+Red = []
+Green = []
+Blue = []
+
+for x in sample:
+  for y in x:
+    Red.append(y[0])
+    Green.append(y[1])
+    Blue.append(y[2])
+
+R_avg = sum(Red) / len(Red)
+G_avg = sum(Green) / len(Green)
+B_avg = sum(Blue) / len(Blue)
